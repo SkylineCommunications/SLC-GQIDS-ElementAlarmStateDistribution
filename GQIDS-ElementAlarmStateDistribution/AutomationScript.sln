@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{FED766A5-AAE2-4EFD-8AEE-A7B4555F060E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{ABEEA235-3348-4A66-A0B4-768436CDABB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{CD32626C-EDBA-4A44-9083-A74EC1BE07AF}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9AFD9261-1A61-4F49-99A9-BC8D97F11A3B}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{AF4A8E1E-E841-4A06-88DF-DD21817EF6D3}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feedable Alarm State Distribution Source Script", "Feedable Alarm State Distribution Source Script", "{D63B0D33-0A9C-4B02-AC5C-613D5EBEB37C}"
+	ProjectSection(SolutionItems) = preProject
+		Feedable Alarm State Distribution Source Script.xml = Feedable Alarm State Distribution Source Script.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{60A9A2F6-9386-4768-BEB6-7956DCE15FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Element Alarm State Distribution Source Script_2", "Feedable Alarm State Distribution Source Script_2\Element Alarm State Distribution Source Script_2.csproj", "{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF4A8E1E-E841-4A06-88DF-DD21817EF6D3} = {FED766A5-AAE2-4EFD-8AEE-A7B4555F060E}
+		{D63B0D33-0A9C-4B02-AC5C-613D5EBEB37C} = {ABEEA235-3348-4A66-A0B4-768436CDABB2}
+		{60A9A2F6-9386-4768-BEB6-7956DCE15FB2} = {D63B0D33-0A9C-4B02-AC5C-613D5EBEB37C}
+		{0DDA3E9E-1DFE-44B6-B422-B1ABCBADEC13} = {60A9A2F6-9386-4768-BEB6-7956DCE15FB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F54240B0-0A7C-4AE9-866F-D28758E20B7D}
+	EndGlobalSection
+EndGlobal
